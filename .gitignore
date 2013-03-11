@@ -9,3 +9,6 @@ dist
 *.swp
 
 target/
+
+Thumbs.db
+.DS_Store
