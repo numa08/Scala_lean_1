@@ -1,7 +1,12 @@
 package jp.numa08.models
 
-class Shop(name:String, likly:Int) extends Choosable {
-	def weight = likly
+class Shop(val name:String, likly:Int = 10) extends Choosable {
 
-	override def toString = name
+	def weight():Int = {
+		return likly
+	}
+
+	def toStr(delimiter: String):String = {
+		return name + delimiter + likly
+	}
 }
