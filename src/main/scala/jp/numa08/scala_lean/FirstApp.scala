@@ -9,7 +9,7 @@ object FirstApp extends App {
 	val chooser = new Chooser
 	val d = ()=> {
 		val rand = new Random
-		(rand.nextInt(9) + 1) * 10 + (rand.nextInt(9) + 1)
+		(rand.nextInt(50) + 1)  + (rand.nextInt(50) + 1)
 	}
 	
 	val shop = chooser.choose(shops, d)
