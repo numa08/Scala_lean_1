@@ -22,7 +22,10 @@ dist
 *.db
 *.swp
 
-target/
 
 Thumbs.db
 .DS_Store
+
+.idea/
+.idea_modules/
+out/
